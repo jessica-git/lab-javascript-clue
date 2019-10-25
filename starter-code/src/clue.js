@@ -106,9 +106,9 @@ let mysteryEnvelope = {}
 function pickMystery (){
     console.log(mysteryEnvelope)
 
-    mysteryEnvelope.suspect = ramdomSelector(charactersArray);
-    mysteryEnvelope.room = ramdomSelector(roomsArray);
-    mysteryEnvelope.weapon = ramdomSelector(weaponsArray);
+    mysteryEnvelope.suspect = randomSelector(charactersArray);
+    mysteryEnvelope.room = randomSelector(roomsArray);
+    mysteryEnvelope.weapon = randomSelector(weaponsArray);
 
     return mysteryEnvelope;
 }
